@@ -4,19 +4,29 @@ import {
   Card,
   CardMedia,
   CardContent,
-  Typography,
   CardHeader,
-  CardActions,
-  Button,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { orderList } from "./constants";
-import OrderCard from "./OrderCard";
+import { mealList, soapList, dessertList } from "./constants";
+import KitchenMenuItem from './KitchenMenuItem';
 
 const KitchenMenuPage = () => {
   const useStyles = makeStyles({
     root: {
       minWidth: 275,
+    },
+    column: {
+      flexBasis: "33.33%",
+    },
+    heading: {
+      fontSize: 17,
+      fontWeight: "bold",
+    },
+    paperStyles: {
+      fontSize: 17,
+      fontFamily: "Arial",
+      fontWeight: "bold",
+      padding: 15,
     },
   });
 
@@ -33,16 +43,17 @@ const KitchenMenuPage = () => {
           title="Table 5"
         />
         <CardHeader
-          title={"Orders"}
-          subheader={"Orders from customers"}
+          title={"Menu"}
+          subheader={"Choose available menu items"}
         ></CardHeader>
         <CardContent>
-          <Grid container spacing={4}>
-            {orderList.map((table) => (
-              <Grid item xs={12} md={6}>
-                <OrderCard orderItem={table} />
-              </Grid>
-            ))}
+          <Grid container direction="column" spacing={4}>
+            
+          <KitchenMenuItem list={soapList} title={"Soaps"} subtitle={"Soaps in the Menu"} />
+          <KitchenMenuItem list={mealList} title={"Meals"} subtitle={"Meals in the Menu"} />
+          <KitchenMenuItem list={dessertList} title={"Desserts"} subtitle={"Desserts in the Menu"} />
+
+
           </Grid>
         </CardContent>
       </Card>

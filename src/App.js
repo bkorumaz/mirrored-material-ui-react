@@ -7,6 +7,7 @@ import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import purple from "@material-ui/core/colors/purple";
 import { Route, Switch } from 'react-router-dom'
 import KitchenOrdersPage from "./KitchenOrdersPage";
+import KitchenMenuPage from "./KitchenMenuPage";
 
 const App = () => {
   const theme = createMuiTheme({
@@ -31,7 +32,8 @@ const App = () => {
               <Route exact path="/" component={CustomerOrderPage} />
               <Route path="/orders" component={CustomerOrderPage} />
               <Route exact path="/menu" component={ManagerMenuPage} />
-              <Route exact path="/kitchen" component={KitchenOrdersPage} />
+              <Route exact path="/kitchen/orders" component={KitchenOrdersPage} />
+              <Route exact path="/kitchen/menu" component={KitchenMenuPage} />
             </Switch>
           </Grid>
           <Grid item xs={false} sm={2} />
