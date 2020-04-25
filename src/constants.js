@@ -102,3 +102,38 @@ export const mealList = [
       "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/singleimagebug-pasta-puttanesca-pin-1549421288.jpg?crop=1xw:0.9453781512605042xh;center,top&resize=980:*"
   },
 ];
+
+export const orderList = [{
+  title: "Table 1",
+  meals: [{name: "Meal Number 1"},
+  {name: "Meal Number 2"},
+  {name: "Meal Number 3"},
+  {name: "Meal Number 4"}
+  ]
+  },
+  {
+  title: "Table 2",
+  meals: [{name: "Meal Number 1"},
+  {name: "Meal Number 2"},
+  {name: "Meal Number 3"},
+  {name: "Meal Number 4"}
+  ]
+  },
+  {
+  title: "Table 3",
+  meals: [{name: "Meal Number 1"},
+  {name: "Meal Number 2"},
+  {name: "Meal Number 3"},
+  {name: "Meal Number 4"}
+  ]
+  },
+  {
+  title: "Table 4",
+  meals: [{name: "Meal Number 1"},
+  {name: "Meal Number 2"},
+  {name: "Meal Number 3"},
+  {name: "Meal Number 4"}
+  ]
+  }
+  
+  ]
