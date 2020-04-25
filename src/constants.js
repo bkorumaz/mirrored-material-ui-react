@@ -1,127 +1,104 @@
-<<<<<<< HEAD
-export default [
+export const dessertList = [
   {
-    title: "Keurig K-Duo",
+    title: "Air Fryer Donuts",
+    price: "$100",
+    description:
+      "Skip the pot of hot oil and make these healthier air fryer donuts. If you've ever had a baked donut, brace yourself. These are SO much better.",
+    imageUrl:
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190619-air-fryer-donuts-305-portrait-pf-1561758031.jpg?crop=0.9997369113391213xw:1xh;center,top&resize=980:* "
+  },
+  {
+    title: "Air Fryer S'mores",
+    price: "$80",
+    description:
+      "Put the bug spray down, your new favorite s'more can be made without a campfire.",
+    imageUrl:
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190731-air-fryer-smores-0269-portrait-pf-1565820637.jpg?crop=1xw:1xh;center,top&resize=980:*"
+  },
+  {
+    title: "Air Fryer Molten Lava Cake",
+    price: "$110",
+    description:
+      "It's Molten! It's Molteeennn! Yes, this molten lava cake is Chef approved.Lorem ipsum dolor sit amet.",
+    imageUrl:
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/molten-air-fryer-l-1562037316.png?crop=0.936xw:1.00xh;0,0&resize=980:*"
+  },
+  {
+    title: "Crustless Air Fryer Cheesecake",
+    price: "$100",
+    description:
+      "Is there anything an Air Fryer CAN'T do!? Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageUrl:
+      "https://www.recipethis.com/wp-content/uploads/Best-Ever-Philips-Airfryer-Caramel-Cheesecake.jpg"
+  },
+];
+
+export const soapList = [
+  {
+    title: "Pasta Fagioli",
     price: "$149.99",
     description:
-      "Use both ground coffee and k-cup pods. Multiple brew sizes: brew an 8, 10, or 12-cup carafe and an 237, 296, or 355ml (8, 10, or 12 oz. ) cup ",
-    avatarUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Keurig_Logo.png",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium diam orci, a ultrices enim tincidunt nec.",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61-KUPluVYL._AC_SL1500_.jpg"
+      "https://hips.hearstapps.com/del.h-cdn.co/assets/17/31/1600x2399/gallery-1501791386-delish-pasta-fagioli-vertical.jpg?resize=980:*"
   },
   {
-    title: "KRUPS Electric Spice",
-    price: "$19.99",
+    title: "Tuscan Tortellini Soup",
+    price: "$330",
     description:
-      "Large grinding capacity yields ground coffee for up to 12 cups of coffee",
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/81CbxNLCHCL._AC_SL1500_.jpg",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium diam orci, a ultrices enim tincidunt nec.",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/71FhMLBP9XL._AC_SL1500_.jpg"
+      "https://hips.hearstapps.com/del.h-cdn.co/assets/16/39/1474916963-delish-tortellini-soup-1.jpg?crop=1xw:0.99975xh;center,top&resize=980:*"
   },
   {
-    title: "Hamilton Beach Flexbrew",
-    price: "$89.99",
+    title: "Chicken Parm Soup",
+    price: "$90",
     description:
-      "No two coffee drinkers are the same – so, the flexibility to customize how and what you brew is key. From fresh grounds to K-Cup pods, the Hamilton Beach FlexBrew 2-Way Coffee Maker gives you the options to please fans of all types of coffees.",
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/81mjh5ZSu1L._AC_SL1500_.jpg",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium diam orci, a ultrices enim tincidunt nec.",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/818rz3CIaFL._AC_SL1500_.jpg"
+      "https://hips.hearstapps.com/del.h-cdn.co/assets/15/40/1443717944-chicken-parm-soup-delish.jpg?crop=1.0xw:1xh;center,top&resize=980:*"
   },
   {
-    title: "Secura French Press",
-    price: "$36.48",
+    title: "Pizza Soup",
+    price: "$100",
     description:
-      "3-layered Stainless steel filter traps the smallest coffee grounds to produce an exceptional full-bodied flavor, filter is easy to disassemble and clean.",
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61u76aiQQsL._AC_SL1000_.jpg",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium diam orci, a ultrices enim tincidunt nec.",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61XRMmXVwQL._AC_SL1500_.jpg"
+      "https://hips.hearstapps.com/del.h-cdn.co/assets/16/39/2048x3071/gallery-1474914960-delish-pizza-soup.jpg?resize=980:*"
   },
-  {
-    title: "Cafe Du Chateau French Press",
-    price: "$32.95",
-    description:
-      "We use double stainless steel screen filters on a durable plunger supported by a spring loaded base plate to seal the edges, followed by a final top lid strainer to give you a pure brew with no grounds unlike other cheap presses.",
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/81BdxpiRtCL._AC_SL1500_.jpg",
-    imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/81luUhz7ZlL._AC_SL1500_.jpg"
-  },
-  {
-    title: "LIVINGbasics Single Serve Coffee Maker ",
-    price: "$37.99",
-    description:
-      'Brew with a single serve k-cup pod or ground coffee. Less than 14 cm (5.5") wide slim design, its the perfect size for any space.',
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61PGHBLkl8L._AC_SL1500_.jpg",
-    imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61KBB8K1wDL._AC_SL1000_.jpg"
-  }
 ];
-=======
-export default [
+
+export const mealList = [
   {
-    title: "Keurig K-Duo",
-    price: "$149.99",
+    title: "Chicken Marsala",
+    price: "$200",
     description:
-      "Use both ground coffee and k-cup pods. Multiple brew sizes: brew an 8, 10, or 12-cup carafe and an 237, 296, or 355ml (8, 10, or 12 oz. ) cup ",
-    avatarUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Keurig_Logo.png",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium diam orci, a ultrices enim tincidunt nec.",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61-KUPluVYL._AC_SL1500_.jpg"
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190814-chicken-marsala-0108-portrait-pf-1567185387.jpg?crop=1xw:1xh;center,top&resize=980:*"
   },
   {
-    title: "KRUPS Electric Spice",
-    price: "$19.99",
+    title: "Air Fryer Pizza",
+    price: "$300",
     description:
-      "Large grinding capacity yields ground coffee for up to 12 cups of coffee",
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/81CbxNLCHCL._AC_SL1500_.jpg",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium diam orci, a ultrices enim tincidunt nec.",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/71FhMLBP9XL._AC_SL1500_.jpg"
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190731-air-fryer-pizza-0188-portrait-pf-1565820597.jpg?crop=0.9997369113391213xw:1xh;center,top&resize=980:*"
   },
   {
-    title: "Hamilton Beach Flexbrew",
-    price: "$89.99",
+    title: "Cumin Spiced Chicken Meatballs",
+    price: "$90",
     description:
-      "No two coffee drinkers are the same – so, the flexibility to customize how and what you brew is key. From fresh grounds to K-Cup pods, the Hamilton Beach FlexBrew 2-Way Coffee Maker gives you the options to please fans of all types of coffees.",
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/81mjh5ZSu1L._AC_SL1500_.jpg",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium diam orci, a ultrices enim tincidunt nec.",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/818rz3CIaFL._AC_SL1500_.jpg"
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-191907-chicken-meatballs-0323-portrait-1565386516.jpg?crop=0.9997369113391213xw:1xh;center,top&resize=980:*"
   },
   {
-    title: "Secura French Press",
-    price: "$36.48",
+    title: "Pasta Puttanesca",
+    price: "$100",
     description:
-      "3-layered Stainless steel filter traps the smallest coffee grounds to produce an exceptional full-bodied flavor, filter is easy to disassemble and clean.",
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61u76aiQQsL._AC_SL1000_.jpg",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium diam orci, a ultrices enim tincidunt nec.",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61XRMmXVwQL._AC_SL1500_.jpg"
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/singleimagebug-pasta-puttanesca-pin-1549421288.jpg?crop=1xw:0.9453781512605042xh;center,top&resize=980:*"
   },
-  {
-    title: "Cafe Du Chateau French Press",
-    price: "$32.95",
-    description:
-      "We use double stainless steel screen filters on a durable plunger supported by a spring loaded base plate to seal the edges, followed by a final top lid strainer to give you a pure brew with no grounds unlike other cheap presses.",
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/81BdxpiRtCL._AC_SL1500_.jpg",
-    imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/81luUhz7ZlL._AC_SL1500_.jpg"
-  },
-  {
-    title: "LIVINGbasics Single Serve Coffee Maker ",
-    price: "$37.99",
-    description:
-      'Brew with a single serve k-cup pod or ground coffee. Less than 14 cm (5.5") wide slim design, its the perfect size for any space.',
-    avatarUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61PGHBLkl8L._AC_SL1500_.jpg",
-    imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61KBB8K1wDL._AC_SL1000_.jpg"
-  }
 ];
->>>>>>> 2e0151fb20166abd9bcddd2daf21dc7f9c1465d8
