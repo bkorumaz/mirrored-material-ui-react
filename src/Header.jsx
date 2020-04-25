@@ -3,6 +3,7 @@ import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import { Grid, Button } from "@material-ui/core";
 import RestaurantIcon from '@material-ui/icons/Restaurant';
 import { makeStyles } from "@material-ui/styles";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(() => ({
   typographyStyles: {
@@ -29,8 +30,8 @@ const Header = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={3} md={1}><Button color="inherit">ORDERS</Button></Grid>
-          <Grid item xs={3} md={1}><Button color="inherit">MENU</Button></Grid>
+          <Grid item xs={3} md={1}><Button color="inherit" component={Link} to={'/orders'}>ORDERS</Button></Grid>
+          <Grid item xs={3} md={1}><Button color="inherit" component={Link} to={'/menu'}>MENU</Button></Grid>
           <Grid item xs={0} md={1}/>
         </Grid>
       </Toolbar>

@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 
 const MealCard = (props) => {
   const classes = useStyles();
-  const { title, subtitle, description, imageUrl } = props;
+  const { title, subtitle, description, imageUrl, buttons } = props;
   return (
     <Card className={classes.root} raised>
       <div className={classes.details}>
@@ -39,8 +39,7 @@ const MealCard = (props) => {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">ADD</Button>
-          <Button size="small">INGREDIENTS</Button>
+        {buttons.map(button => <Button size="small">{button.title}</Button>)}
         </CardActions>
       </div>
     </Card>

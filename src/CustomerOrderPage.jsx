@@ -13,7 +13,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { dessertList, soapList, mealList } from "./constants";
 import Collapsible from "./Collapsible";
 
-const Content = () => {
+const CustomerOrderPage = () => {
   const styles = (theme) => ({
     card: {
       backgroundColor: theme.palette.secondary.main,
@@ -24,23 +24,10 @@ const Content = () => {
   const useStyles = makeStyles({
     root: {
       minWidth: 275,
-    },
-    bullet: {
-      display: "inline-block",
-      margin: "0 2px",
-      transform: "scale(0.8)",
-    },
-    title: {
-      fontSize: 14,
-    },
-    pos: {
-      marginBottom: 12,
-    },
+    }
   });
 
   const classes = useStyles();
-
-  const bull = <span className={classes.bullet}>•</span>;
 
   return (
     <div>
@@ -105,4 +92,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default CustomerOrderPage;

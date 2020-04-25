@@ -1,9 +1,11 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import Header from "./Header";
-import Content from "./Content";
+import CustomerOrderPage from "./CustomerOrderPage";
+import ManagerMenuPage from './ManagerMenuPage';
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import purple from "@material-ui/core/colors/purple";
+import { Route, Switch } from 'react-router-dom'
 
 const App = () => {
   const theme = createMuiTheme({
@@ -24,7 +26,11 @@ const App = () => {
         <Grid item container>
           <Grid item xs={false} sm={2} />
           <Grid item xs={12} sm={8}>
-            <Content />
+            <Switch>
+              <Route exact path="/" component={CustomerOrderPage} />
+              <Route path="/orders" component={CustomerOrderPage} />
+              <Route exact path="/menu" component={ManagerMenuPage} />
+            </Switch>
           </Grid>
           <Grid item xs={false} sm={2} />
         </Grid>
