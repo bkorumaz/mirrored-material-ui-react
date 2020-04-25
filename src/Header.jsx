@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles(() => ({
   typographyStyles: {
     flex: 1,
+    fontSize: '20px',
+    fontWeight: 'bold'
   },
 }));
 
@@ -25,7 +27,7 @@ const Header = () => {
               </Grid>
               <Grid item >
                 <Typography className={classes.typographyStyles}>
-                  Batak Plus Restraunt
+                  Restaurant App
                 </Typography>
               </Grid>
             </Grid>
